@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/hussainalnadaf" 
+    type="javax.sql.DataSource"
+    auth="Container" 
+	factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+	driverClassName="com.mysql.jdbc.Driver" 
+	url="jdbc:mysql://arlia.computing.dundee.ac.uk:3306/hussainalnadaf"
+	username="hussainalnadaf" password="123abc" 
+    jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"
+/>
+
+</Context>
